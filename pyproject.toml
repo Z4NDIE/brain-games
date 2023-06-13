@@ -5,11 +5,12 @@ description = ""
 authors = ["flame <sannuchel@gmail.com>"]
 readme = "README.md"
 packages = [
-	{include = "brain_games"},
+	{ include = "brain_games" },
 ]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+prompt = "^0.4.1"
 
 
 [tool.poetry.scripts]
