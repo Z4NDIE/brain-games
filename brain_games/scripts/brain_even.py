@@ -19,29 +19,41 @@ def question():
 
 
 def even_or_odd():
+    correct_answer = 'yes'
     for x in range(3):
+        flag = True
         question()
-        if random_number % 2 == 0 and user_answer == 'no':
-            print("'no' is wrong answer ;(. Correct answer was 'yes'.")
-            print(f"Let's try again, {cli.username}!")
-            break
-        elif random_number % 2 != 0 and user_answer == 'yes':
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
-            print(f"Let's try again, {cli.username}!")
-            break
-        elif user_answer != 'yes' and user_answer != 'no':
-            print('This is the wrong answer ;(.')
-            print(f"Let's try again, {cli.username}!")
-            break
-        elif user_answer != 'yes' and user_answer != 'no':
-            print('This is the wrong answer ;(.')
-            print(f"Let's try again, {cli.username}!")
-            break
-        elif random_number % 2 == 0 and user_answer == 'yes':
-            print('Correct!')
-        elif random_number % 2 != 0 and user_answer == 'no':
-            print('Correct!')
-    
+        if random_number % 2 != 0:
+            if user_answer == 'no':
+                flag = True
+                correct()
+                continue
+            else:
+                flag = False
+                print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+                game_over()
+                break
+
+        elif random_number % 2 == 0:
+            if user_answer == correct_answer:
+                flag = True
+                correct()
+                continue
+            else:
+                flag = False
+                print("'no' is wrong answer ;(. Correct answer was 'yes'.")
+                game_over()
+                break
+    if flag:
+        print(f'Congratulation, {cli.username}!')
+
+
+def correct():
+    print('Correct!')
+
+
+def game_over():
+    print(f"Let's try again, {cli.username}!")
 
 
 def main():
