@@ -19,5 +19,5 @@ def question_and_correct_answer():
     random_index = randint(0, (len(progression) - 1))
     correct_answer = progression[random_index]
     progression[random_index] = '..'
-    question = progression
+    question = ' '.join(map(str, progression))
     return question, str(correct_answer)
