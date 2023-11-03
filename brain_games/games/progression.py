@@ -1,6 +1,6 @@
 from random import randint
 
-RULES = 'What is missing in the progression?'
+RULES = 'What number is missing in the progression?'
 
 
 def make_progression(progression_len, min_step, max_step, min_num, max_num):
