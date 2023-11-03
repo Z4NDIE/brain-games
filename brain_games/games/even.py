@@ -1,6 +1,6 @@
 from random import randint
 
-RULES = "Answer 'yes' if the number even otherwise answer 'no'."
+RULES = 'Answer "yes" if the number even otherwise answer "no".'
 
 
 def question_and_correct_answer():
