@@ -2,18 +2,13 @@
 [![Actions Status](https://github.com/Z4NDIE/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Z4NDIE/python-project-49/actions)
 <a href="https://codeclimate.com/github/Z4NDIE/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/2158d232f6f88c299670/maintainability" /></a>
 
-
-Мини-игра "Brain-games"
-
-
-
-
-
-
-
-
-
-
+## "Brain-games". 
+## Проект представляет собой набор из пяти мини-игр: even, calculation, gcd, progression и prime. 
+#### Brain-even - проверяет число на четность.
+#### Brain-calc - калькулятор.
+#### Brain-gcd - находит наибольший общий делитель двух чисел.
+#### Brain-progression - арифметическая прогрессия.
+#### Brain-prime - проверяет число на простоту.
 
 https://asciinema.org/a/618950 #brain-even
 https://asciinema.org/a/618955 #brain-calc
