@@ -3,7 +3,9 @@ from random import randint
 RULES = 'What number is missing in the progression?'
 
 
-def make_progression(progression_len, min_step, max_step, min_num, max_num):
+def make_progression(progression_len,
+                     min_step, max_step,
+                     min_num, max_num):
     first_num = randint(min_num, max_num)
     progression_step = randint(min_step, max_step)
     progression = [first_num, ]
