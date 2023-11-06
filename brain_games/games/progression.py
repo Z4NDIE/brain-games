@@ -15,7 +15,7 @@ def make_progression(progression_len, min_num, max_num):
 
 
 def question_and_correct_answer():
-    progression = make_progression(10, 1, 10, 0, 30)
+    progression = make_progression(10, 1, 30)
     random_index = randint(0, (len(progression) - 1))
     correct_answer = progression[random_index]
     progression[random_index] = '..'
