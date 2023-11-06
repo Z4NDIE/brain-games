@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/Z4NDIE/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Z4NDIE/python-project-49/actions)
 <a href="https://codeclimate.com/github/Z4NDIE/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/2158d232f6f88c299670/maintainability" /></a>
 
-# Проект "Brain-games". 
+# Проект "Игры разума".
 ## Представляет собой набор из пяти мини-игр: even, calculation, gcd, progression и prime. 
 ### Brain-even - проверяет число на четность.
 ### Brain-calc - калькулятор.
