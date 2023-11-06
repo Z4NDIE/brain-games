@@ -24,11 +24,3 @@
 
 ### Brain-prime. Проверяет число на простоту.
 [![asciicast](https://asciinema.org/a/619240.svg)](https://asciinema.org/a/619240)
-
-### Записи asciinema для каждой игры.
-https://asciinema.org/a/619233 #brain-games
-https://asciinema.org/a/619236 #brain-even
-https://asciinema.org/a/619237 #brain-calc
-https://asciinema.org/a/619238 #brain-gcd
-https://asciinema.org/a/619239 #brain-progression
-https://asciinema.org/a/619240 #brain-prime
