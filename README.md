@@ -11,16 +11,16 @@
 [![asciicast](https://asciinema.org/a/619233.svg)](https://asciinema.org/a/619233)
 
 ### Brain-even. Проверяет число на четность.
-[![asciicast](https://asciinema.org/a/619236.svg)](https://asciinema.org/a/619236)
+[![asciicast](https://asciinema.org/a/619558.svg)](https://asciinema.org/a/619558)
 
 ### Brain-calc. Калькулятор.
-[![asciicast](https://asciinema.org/a/619237.svg)](https://asciinema.org/a/619237)
+[![asciicast](https://asciinema.org/a/619559.svg)](https://asciinema.org/a/619559)
 
 ### Brain-gcd. Находит наибольший общий делитель двух чисел.
-[![asciicast](https://asciinema.org/a/619238.svg)](https://asciinema.org/a/619238)
+[![asciicast](https://asciinema.org/a/619560.svg)](https://asciinema.org/a/619560)
 
 ### Brain-progression. Арифметическая прогрессия.
-[![asciicast](https://asciinema.org/a/619239.svg)](https://asciinema.org/a/619239)
+[![asciicast](https://asciinema.org/a/619561.svg)](https://asciinema.org/a/619561)
 
 ### Brain-prime. Проверяет число на простоту.
-[![asciicast](https://asciinema.org/a/619240.svg)](https://asciinema.org/a/619240)
+[![asciicast](https://asciinema.org/a/619563.svg)](https://asciinema.org/a/619563)
